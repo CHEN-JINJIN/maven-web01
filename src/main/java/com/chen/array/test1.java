@@ -15,6 +15,7 @@ public class test1 {
     }
 
     public static void printArray(int[] arr) {
+        // println --换行
         System.out.print("[");
         for (int i = 0; i < arr.length; i++) {
             if (i == arr.length - 1){
